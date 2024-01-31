@@ -135,7 +135,7 @@ function renderPersonnalDetail(){
 }
 renderPersonnalDetail();
 //section project
-  projects=JSON.parse(localStorage.getItem("projects"));
+ let projects=JSON.parse(localStorage.getItem("projects"));
   function renderProjects(){
     document.getElementsByClassName("projectBox")[0].innerHTML="";
     for(let btn of projects){
