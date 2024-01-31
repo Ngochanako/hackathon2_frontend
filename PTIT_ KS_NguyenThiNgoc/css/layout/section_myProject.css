@@ -1,0 +1,98 @@
+.sectionMyProject {
+    padding: 0px 100px;
+}
+.projectContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.contentWork {
+    width: 80px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: green;
+    background-color: rgb(215, 213, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.contentName {
+    font-weight: 600;
+    font-size: 25px;
+}
+.contentDetail {
+    padding: 0px 200px;
+    text-align: center;
+    font-weight: 500px;
+}
+.projectMenu {
+    padding: 20px;
+    border-bottom: 1px solid rgb(202, 198, 198);
+    margin-top: 100px;
+}
+.projectMenuList {
+    display: flex;
+    gap: 20px;
+}
+.projectMenuItem {
+    font-weight: 800px;
+    font-size: 18px;
+}
+.projectBox {
+    margin-top: 50px;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 20px;
+   opacity: 0.8;
+}
+.projectBoxItem {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid rgb(194, 188, 188);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(201, 192, 192);
+}
+.projectBoxItemTop {
+    display: flex;
+    gap: 10px;
+}
+.projectBoxItemTop .img {
+    padding: 5px;
+    background-color: rgb(225, 218, 218);
+    border-radius: 5px;
+}
+.projectBoxItemTop .img img{
+    width: 40px;
+    height: 40px;
+}
+.projectBoxItemTopText {
+}
+.BoxItemName {
+    font-weight: bold;
+    font-size: 18px;
+}
+.BoxItemDetail {
+    display: flex;
+    gap: 10px;
+    color: grey;
+}
+.fa-share-from-square {
+    color: green;
+}
+.projectBoxItemBottom {
+    display: flex;
+    gap: 10px;
+}
+.projectBoxButton {
+    padding: 5px 10px;
+    background-color:grey ;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}

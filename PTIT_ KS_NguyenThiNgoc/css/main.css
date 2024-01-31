@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url(./layout/header.css);
+@import url(./layout/section_personal_detail.css);
+@import url(./layout/section_myProject.css);
+@import url(./layout/section_getInTouch.css);
+@import url(./layout/footer.css);
+
+html {
+  scroll-behavior: smooth;
+  overflow-y: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+li {
+  list-style-type: none;
+}
+li:hover {
+  color: grey;
+}
+a:hover {
+  color: grey;
+}
+a{
+  text-decoration: none;
+}
+button:hover{
+  color: grey;
+}

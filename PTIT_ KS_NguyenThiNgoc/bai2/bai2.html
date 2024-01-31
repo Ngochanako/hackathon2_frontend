@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="headerItem">
+            <input placeholder="Project Name" id="name">               
+          </input>
+            <span class="material-symbols-outlined">
+                alternate_email
+            </span>
+        </div>
+           <div class="headerItem">
+            <input placeholder="Image URL" id="img">
+                             
+            </input>
+            <span class="material-symbols-outlined">
+                alternate_email
+            </span> 
+        </div>
+        <div class="headerItem">
+            <input placeholder="Link" id="link">
+                
+            </input>
+            <span class="material-symbols-outlined">
+                alternate_email
+            </span>
+        </div>
+            <div class="headerItem">
+            <input placeholder="Tags(Ex:React,Angular)" id="tags">
+                
+            </input>
+            <span class="material-symbols-outlined">
+                alternate_email
+            </span>
+        </div>
+            <button id="add" class="add" onclick="add()">+New Project</button>
+        </header>
+        <div>
+            <table>
+                <tr>
+                    <th>#</th>
+                    <th>Project Name</th>
+                    <th>Image URL</th>
+                    <th>Link</th>
+                    <th>Tags</th>
+                    <th>Action</th>
+                </tr>
+                <tbody id="tbody">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button id="delete">Delete</button>
+                        <button id="update">Update</button>
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="bai2.js"></script>
+</body>
+</html>
