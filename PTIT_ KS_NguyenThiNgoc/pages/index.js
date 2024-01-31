@@ -134,6 +134,7 @@ function renderPersonnalDetail(){
     }
 }
 renderPersonnalDetail();
+//section project
   projects=JSON.parse(localStorage.getItem("projects"));
   function renderProjects(){
     document.getElementsByClassName("projectBox")[0].innerHTML="";
@@ -147,7 +148,7 @@ renderPersonnalDetail();
       <div class="projectBoxItemTopText">
         <div class="BoxItemName">${btn.projectName}</div>
         <div class="BoxItemDetail">
-          <p>${btn.link}</p>
+          <a href="${btn.link}">${btn.link}</a>
           <i class="fa-solid fa-share-from-square"></i>
         </div>
       </div>
